@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main(void) {
+int main() {
     int n;
     printf("Enter an integer: ");
     if (scanf("%d", &n) != 1) {
@@ -29,4 +29,5 @@ int main(void) {
 
     printf("%d is prime.\n", n);
     return 0;
+
 }
